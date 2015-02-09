@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-HockeySDK-HockeySDKResources.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HockeySDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F701AF75FB3527466B1012D0</key>
+		<key>1A1A9CAB5E1AF8F3121BF408</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FFF2C8D9BEE4D64C8CC234D2</key>
+		<key>3709994D9688781518B8887E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9A47DAEAB1752EA1558D3CCB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9DBC98B879D4F44AB2F8FBA5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

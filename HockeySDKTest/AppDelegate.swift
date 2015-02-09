@@ -8,6 +8,7 @@
 
 import UIKit
 import Alamofire
+import HockeySDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,6 +21,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Add line to test Alamofire pod build and linking.
         Alamofire.Method.GET
+        
+        // Add lines to test HockeySDK pod build and linking.
+        BITHockeyManager.sharedHockeyManager().configureWithIdentifier("APP_IDENTIFIER")
+        BITHockeyManager.sharedHockeyManager().startManager()
+        BITHockeyManager.sharedHockeyManager().authenticator.authenticateInstallation()
         
         return true
     }
